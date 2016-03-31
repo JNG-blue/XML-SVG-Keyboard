@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Keyboard>
-    <Key>
+    <Key type="system">
         <Name>Esc</Name>
         <Row>1</Row>
         <Column>1</Column>
@@ -644,7 +644,7 @@
         <Width>3</Width>
         <Height>2</Height>
     </Key>
-    <Key>
+    <Key type="system">
         <Name>L Win</Name>
         <Row>12</Row>
         <Column>4</Column>
@@ -672,14 +672,14 @@
         <Width>3</Width>
         <Height>2</Height>
     </Key>
-    <Key>
+    <Key type="system">
         <Name>R Win</Name>
         <Row>12</Row>
         <Column>24</Column>
         <Width>2</Width>
         <Height>2</Height>
     </Key>
-    <Key>
+    <Key type="system">
         <Name>Menu</Name>
         <Row>12</Row>
         <Column>26</Column>
