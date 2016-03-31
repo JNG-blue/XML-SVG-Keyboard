@@ -44,11 +44,11 @@
        
                
         <text 
-            x="{$keysize*Column+10+$padding*Column}" y="{$keysize*Row+10+$padding*Row}"         
+            x="{$keysize*Column+8+$padding*Column}" y="{$keysize*Row+8+$padding*Row}"         
             style="
             font-family:Arial; 
             baseline-shift:-10; 
-            font-size:12;
+            font-size:10;
             fill:black;
             ">
             <xsl:value-of select="Name"/>
