@@ -1,0 +1,3 @@
+Keys.xml is a list of the 104 basic keys on a keyboard and their locations. You may adjust their size by changing "width" and "height" and their location by playing with the "row" and "column".
+
+DrawKeyboard.xsl takes the xml file of keys and draws them as a gray keyboard. "system" type keys are orange, "modifier" type keys are red. You can use the variable "keysize" to make the keys larger or smaller, and the variable "padding" to space them out more.
