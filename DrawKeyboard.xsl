@@ -29,15 +29,15 @@
         
         <xsl:choose>
             <xsl:when test="./@type='modifier'">
-                <rect x="{$keysize*Column+$padding*Column}" y="{$keysize*Row+$padding*Row}"  rx="10" ry="10" width="{$keysize*Width}" height="{$keysize*Height}"
+                <rect x="{$keysize*Column+$padding*Column}" y="{$keysize*Row+$padding*Row}"  rx="3" ry="3" width="{($keysize*Width)+(((Width)-3)*$padding)}" height="{($keysize*Height)+(((Height)-3)*$padding)}"
                     style="stroke:black;stroke-width:1;opacity:0.5" fill="#ff0000" />
             </xsl:when>
             <xsl:when test="./@type='system'">
-                <rect x="{$keysize*Column+$padding*Column}" y="{$keysize*Row+$padding*Row}"  rx="10" ry="10" width="{$keysize*Width}" height="{$keysize*Height}"
+                <rect x="{$keysize*Column+$padding*Column}" y="{$keysize*Row+$padding*Row}"  rx="3" ry="3" width="{($keysize*Width)+(((Width)-3)*$padding)}" height="{($keysize*Height)+(((Height)-3)*$padding)}"
                     style="stroke:black;stroke-width:1;opacity:0.5" fill="#ff8000" />
             </xsl:when>
             <xsl:otherwise>
-                <rect x="{$keysize*Column+$padding*Column}" y="{$keysize*Row+$padding*Row}"  rx="10" ry="10" width="{$keysize*Width}" height="{$keysize*Height}"
+                <rect x="{$keysize*Column+$padding*Column}" y="{$keysize*Row+$padding*Row}"  rx="3" ry="3" width="{($keysize*Width)+(((Width)-3)*$padding)}" height="{($keysize*Height)+(((Height)-3)*$padding)}"
                     style="stroke:black;stroke-width:1;opacity:0.5" fill="rgb({$rednum},{$greennum}, {$bluenum} )" />
             </xsl:otherwise>
         </xsl:choose>

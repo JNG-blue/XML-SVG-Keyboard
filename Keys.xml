@@ -662,7 +662,7 @@
         <Name>Spacebar</Name>
         <Row>12</Row>
         <Column>9</Column>
-        <Width>12</Width>
+        <Width>12.5</Width>
         <Height>2</Height>
     </Key>
     <Key type="modifier">
